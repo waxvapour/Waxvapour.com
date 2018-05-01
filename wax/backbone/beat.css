@@ -1,0 +1,265 @@
+/*body unscrollable*/
+html, body {margin: 0; height: 100%; overflow: hidden}
+/*body unscrollable End*/
+/*preloading screen*/
+.loader-overlay {
+       width: 100%;
+       height: 100%;
+       background: url('../bases/preload.gif') center no-repeat #1F222B;
+       z-index: 99999;
+       position: fixed;
+   }
+/*preloading screen End*/
+.close:hover{
+color:red;
+}
+.max:hover{
+  color:blue;
+}
+/*scrollBar styling*/
+/* width */
+::-webkit-scrollbar {
+}
+    width: 0px;
+/* Track */
+::-webkit-scrollbar-track {
+    background: null;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:white;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+/*scrollbar styling End*/
+/*fonts*/
+@font-face {
+	font-family: 'pcsenior';
+	src: local('pcsenior.ttf'),url('../bases/pcsenior.ttf') format('truetype');
+}
+/*fonts End*/
+
+/*Draggables*/
+#about_drag {
+    position: absolute;
+    z-index: 9;
+    font-family: 'pcsenior';
+    border: 1px solid black;
+		resize: both;
+		overflow:auto;
+    top:5%;
+    left:5%;
+    max-width: 90%;
+		max-height: 80%;
+    min-width: 30%;
+    min-height: 30%;
+    display:none;
+
+}
+
+#about_dragheader {
+	text-align: center;
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color:#18262F;
+    color: #fff;
+}
+
+/*Draggables End*/
+.meno{
+  font-family: 'pcsenior';
+  font-size:90%;
+
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+}
+@media only screen and (max-width: 400px) {
+    .logo {
+        width:60%;
+    }
+}
+/*auto type text*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5rem;
+}
+
+.heading {
+  color:White;
+  background-color:null;
+  font-family:pcsenior;
+  padding:10px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 1rem;
+    }
+}
+/*auto type text end*/
+/*SEO jugaad*/
+.chutia_banaya_Google_ko,#chutia_banaya_Google_ko{
+  display:none;
+  text-decoration: none;
+  visibility: hidden;
+  background-color: red;
+}
+/*External elements stuff*/
+
+/*parallex scroll*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+
+}
+
+.bgimg,.bgmimg,.bgmimgm
+{
+  position: relative;
+  opacity: .95;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg
+{
+  background-image: url("../bases/back.gif");
+  min-height: 100%;
+}
+.bgmimg
+{
+  background-image: url("face 2.jpg");
+  min-height: 120%;
+}
+.bgmimgm
+{
+	 background-image: url("face 3.jpg");
+  min-height: 190%;
+}
+
+#captionaa
+{
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color:#000;
+  display:block;
+}
+
+#captionaa span.border
+{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+#captionbb
+{
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  display:none;
+}
+
+#captionbb span.border
+{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/*overlay start*/
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+/*overlay ends*/
+
+.caption
+{
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border
+{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.into
+{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+h3
+{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align:center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px)
+{
+    .bgimg,.bgmimg
+	{
+        background-attachment: scroll;
+	}
+}
+
+/*parallax scroll end*/
