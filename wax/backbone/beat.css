@@ -1,5 +1,6 @@
 /*body unscrollable*/
-html, body {margin: 0; height: 100%; overflow: hidden}
+.mess {margin: 0; height: 100%;  overflow:auto;}
+#less {margin: 0; height: 100%; overflow: hidden;}
 /*body unscrollable End*/
 /*preloading screen*/
 .loader-overlay {
@@ -48,6 +49,7 @@ color:red;
     font-family: 'pcsenior';
     border: 1px solid black;
 		resize: both;
+    background-color:white;
 		overflow:auto;
     top:5%;
     left:5%;

@@ -51,41 +51,46 @@
 <!--Google Analytics Stuff End-->
 <link rel="shortcut icon" href="fevi.ico"; type="image/ico" /><title>Waxvapour</title>
 </head>
-<body>
+<body id="less">
 <div class="loader-overlay"></div>
 <div class="w3-bottom w3-bar w3-card-4">
 	<div class="w3-bar mmenu">
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-card-4 meno" style="cursor: pointer; color:white;">[ W ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Blogs ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ News ]</a>
+		<a onclick="javascript: window.location = 'index.html';" class="w3-bar-item w3-button w3-card-4 meno" style="cursor: pointer; color:white;">[ W ]</a>
+		<a onclick="javascript: window.location = 'blogs.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Blogs ]</a>
+		<a onclick="javascript: window.location = 'news.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ News ]</a>
 		<a onclick="javascript: window.location = 'dates.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Dates ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ ForNerds ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Store ]</a>
+		<a onclick="javascript: window.location = 'fornerds.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ ForNerds ]</a>
+		<a onclick="javascript: window.location = 'store.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Store ]</a>
 		<button onclick="AboutLook()" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ About ]</button>
 		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-card-4 w3-right w3-hide-large w3-hide-medium" onclick="menu_collaps()" style="cursor: pointer; color:white;">&#9776;</a>
 	</div>
 	<div id="hid_menu" class="w3-bar-block w3-hide w3-black w3-hide-large w3-animate-bottom w3-card-4 w3-hide-medium">
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Blogs</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">News</a>
+		<a onclick="javascript: window.location = 'blogs.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Blogs</a>
+		<a onclick="javascript: window.location = 'news.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">News</a>
 		<a onclick="javascript: window.location = 'dates.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Dates</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">ForNerds</a>
-		<button onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Store</button>
+		<a onclick="javascript: window.location = 'fornerds.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">ForNerds</a>
+		<button onclick="javascript: window.location = 'store.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Store</button>
 		<button onclick="AboutLook()" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">About</button>
 		</div>
 </div>
-<div id="about_drag" class="w3-animate-zoom w3-card-4">
+<div id="about_drag" class="w3-animate-zoom w2-card-4">
   <div id="about_dragheader">[ About_us ]<i style="font-size:24px" onclick="closeAboutLook()" class="fa w3-right close w3-margin-left">&#xf00d;</i><i style="font-size:24px" onclick="javascript: window.location = '#';" class="fa w3-right max">&#xf096;</i></div>
   <div class="w3-container w3-white" style="max-width:100%;">
-  <img src="bases/logoBlack.png" class="w3-center " style="min-width:10%; max-width:10%; margin:4%;">
-  <div class="w3-container w3-card" style="min-width:100%;">
- <p style="w3-mobile">Internet can Answer anything, if you know your Question well enough.</p> 
+	<img src="bases/logoBlack.png" class="w3-center" style="min-width:10%; max-width:10%; margin:4%;">
+	<div class="w3-container w3-card" style="min-width:100%;">
+ <p style="w3-mobile">Internet can Answer anything, if you know your Question well enough.</p>
  </div>
  <table class="w3-card w3-table-all w3-margin-top w3-margin-bottom w3-moblie w3-center" style="font-size:70%;">
   <tr><th>Author</th><th>Vaibhav</th></tr>
   <tr><th>MailAt</th><th>root@waxvapour.com</th></tr>
   <tr><th>page</th><th>vaibhavsharma.ml</th></tr>
   </table>
+
+	<div onclick="javascript: window.location = 'lisence.html';"  class="w3-half w3-button w3-green w3-margin-top w3-mobile" alt="End User Lisence Agreemnent" style="font-size:10px;">GNU GPL V3</div>
+	<div onclick="javascript: window.location = 'source.html';"  class="w3-half w3-button w3-orange w3-margin-top w3-mobile float:right;" style="font-size:10px;">SourceCode</div>
+
  </div>
+ 	</div>
   </div>
 <script>
 //About Draggable Menu

@@ -52,25 +52,25 @@
 <!--Google Analytics Stuff End-->
 <link rel="shortcut icon" href="fevi.ico"; type="image/ico" /><title>Waxvapour</title>
 </head>
-<body>
+<body class="mess">
 <div class="loader-overlay"></div>
 <div class="w3-bottom w3-bar w3-card-4" style="background-color:#1a1f27;">
 	<div class="w3-bar mmenu">
 		<a onclick="javascript: window.location = 'index.html';" class="w3-bar-item w3-button w3-card-4 meno" style="cursor: pointer; color:white;">[ W ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Blogs ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ News ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Dates ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ ForNerds ]</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Store ]</a>
+		<a onclick="javascript: window.location = 'blogs.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Blogs ]</a>
+		<a onclick="javascript: window.location = 'news.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ News ]</a>
+		<a onclick="javascript: window.location = 'dates.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Dates ]</a>
+		<a onclick="javascript: window.location = 'fornerds.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ ForNerds ]</a>
+		<a onclick="javascript: window.location = 'store.html';" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ Store ]</a>
 		<button onclick="AboutLook()" class="w3-bar-item w3-button w3-hide-small meno" style="cursor: pointer; color:white;">[ About ]</button>
 		<a href="javascript:void(0)" class="w3-bar-item w3-button w3-card-4 w3-right w3-hide-large w3-hide-medium" onclick="menu_collaps()" style="cursor: pointer; color:white;">&#9776;</a>
 	</div>
 	<div id="hid_menu" class="w3-bar-block w3-hide w3-black w3-hide-large w3-animate-bottom w3-card-4 w3-hide-medium">
-		<a onclick="javascript: window.location = 'index.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Blogs</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">News</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Dates</a>
-		<a onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">ForNerds</a>
-		<button onclick="javascript: window.location = '#';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Store</button>
+		<a onclick="javascript: window.location = 'blogs.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Blogs</a>
+		<a onclick="javascript: window.location = 'news.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">News</a>
+		<a onclick="javascript: window.location = 'dates.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Dates</a>
+		<a onclick="javascript: window.location = 'fornerds.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">ForNerds</a>
+		<button onclick="javascript: window.location = 'store.html';" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">Store</button>
 		<button onclick="AboutLook()" class="w3-bar-item w3-button w3-center meno" style="cursor: pointer; color:white;">About</button>
 		</div>
 </div>
@@ -79,13 +79,18 @@
   <div class="w3-container w3-white" style="max-width:100%;">
   <img src="bases/logoBlack.png" class="w3-center " style="min-width:10%; max-width:10%; margin:4%;">
   <div class="w3-container w3-card" style="min-width:100%;">
- <p style="w3-mobile">Internet can Answer anything, if you know your Question well enough.</p> 
+ <p style="w3-mobile">Internet can Answer anything, if you know your Question well enough.</p>
  </div>
  <table class="w3-card w3-table-all w3-margin-top w3-margin-bottom w3-moblie w3-center" style="font-size:70%;">
   <tr><th>Author</th><th>Vaibhav</th></tr>
   <tr><th>MailAt</th><th>root@waxvapour.com</th></tr>
   <tr><th>page</th><th>vaibhavsharma.ml</th></tr>
   </table>
+
+		<div onclick="javascript: window.location = 'lisence.html';"  class="w3-half w3-button w3-green w3-margin-top w3-mobile" alt="End User Lisence Agreemnent" style="font-size:10px;">GNU GPL V3</div>
+		<div onclick="javascript: window.location = 'source.html';"  class="w3-half w3-button w3-orange w3-margin-top w3-mobile float:right;" style="font-size:10px;">SourceCode</div>
+
+
  </div>
   </div>
 <script>
@@ -132,9 +137,9 @@ function dragElement(elmnt) {
 //About Draggable menu Ends
 </script>
 <h1 class="w3-margin w3-animate-top" style="font-family:pcsenior; font-size:100%;">Nerd's Calender </h1>
-<p class="w3-margin w3-animate-top" style="font-family:pcsenior; font-size:80%;">All importand dates for Waxvapour</p>
+<p class="w3-margin w3-animate-top" style="font-family:pcsenior; font-size:80%;">All importand dates for Waxvapour,  Next Blog in <span id="nexti"></span> .</p>
 <div class="w3-card-4 w3-animate-bottom">
-<div class="month w3-card" style="font-family:pcsenior; "	>      
+<div class="month w3-card" style="font-family:pcsenior; "	>
   <ul>
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
@@ -192,8 +197,6 @@ function dragElement(elmnt) {
 </ul>
 </div>
 </div>
-<div class="w3-center w3-container w3-bottom" style="margin-bottom:10%;">
-<p  style="font-family:pcsenior; font-size:80%;"> Next Blog in <span id="nexti"></span> .</p>
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date("may 5, 2018 0:1:1").getTime();
@@ -203,27 +206,26 @@ var x = setInterval(function() {
 
     // Get todays date and time
     var now = new Date().getTime();
-    
+
     // Find the distance between now an the count down date
     var distance = countDownDate - now;
-    
+
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
     // Output the result in an element with id="demo"
     document.getElementById("nexti").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
-    
-    // If the count down is over, write some text 
+
+    // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("nexti").innerHTML = "EXPIRED";
     }
 }, 1000);
 </script>
-</div>
 </body>
 </html>

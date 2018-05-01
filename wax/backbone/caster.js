@@ -30,3 +30,10 @@ catch(err) {
 }
 }
 
+									/*overlay functions*/
+function recomend() {document.getElementById('faceform').style.display='block'
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
